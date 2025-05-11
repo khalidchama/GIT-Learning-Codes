@@ -4,12 +4,52 @@
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 
 .header {
+    width: 100%;
     text-align: center;
     font-size: 150%;
     padding: 2px;
     background-color: rgb(27, 27, 95);
     color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.sidebar {
+    position: fixed;
+    top: 106px;
+    left: 0px;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(223, 223, 223);
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.sidebar a:hover {
+    font-weight: 600;
+    background-color: gray;
+    color: white;
+}
+
+.content {
+    margin-top: 120px;
+    margin-left: 20%;
+    padding: 0 2%;
 }
