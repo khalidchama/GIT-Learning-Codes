@@ -53,3 +53,8 @@ body {
     margin-left: 20%;
     padding: 0 2%;
 }
+
+.git-merge {
+    background-color: rgb(228, 226, 226);
+    padding: 10px;
+}
